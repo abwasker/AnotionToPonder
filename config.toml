@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://anotiontoponder.org/"
 languageCode    = "en-us"
 theme           = "casper-two"
 languageCode    = "en-US"
@@ -9,7 +9,7 @@ canonifyurls    = true
 
 [params]
   title       = "A Notion to Ponder"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  subtitle    = "where thoughts meet the world"
   copyright   = "© 2020"
 
   cover       = "img/blog-cover.jpg"
