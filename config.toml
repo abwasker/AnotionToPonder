@@ -20,7 +20,7 @@ canonifyurls    = true
 
   twitterName = "faketryghost"
   fbName = ""
-  githubName = ""
+  githubName = "testing"
   linkedinName = "anoshwasker"
   mediumName = ""
 
@@ -43,7 +43,8 @@ canonifyurls    = true
   singleViewStyle = "caspertwo"
 
 [permalinks]
-  post = "/post/:slug/"
+  #post = "/post/:slug/"
+  poetry = "poetry/"
 
 [[menu.main]]
   name = "Home"
