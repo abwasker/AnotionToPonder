@@ -2,7 +2,8 @@
 title: "बादल फिर आएँगे The clouds shall come again"
 date: 2021-01-01T18:29:44-06:00
 categories: ["poetry"]
-tags: ["poetry"]
+tags: []
+url: /poetries/
 draft: false
 ---
 
