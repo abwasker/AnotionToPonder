@@ -1,12 +1,14 @@
 ---
-title: "बादल फिर आएँगे The clouds shall come again"
+title: "बादल फिर आएँगे | The clouds shall come again"
 date: 2021-01-01T18:29:44-06:00
 categories: ["poetry"]
 tags: ["poetry"]
 draft: false
+image: "/images/lake-reflection-min.jpg"
 ---
 
-# बादल फिर आएँगे The clouds shall come again
+# बादल फिर आएँगे 
+# The clouds shall come again
 
 
 ## July 31, 2020

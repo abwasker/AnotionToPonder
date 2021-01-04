@@ -3,6 +3,7 @@ title: "Haunting Hurt and Faiding Twilight"
 date: 2020-12-31T18:56:07-06:00
 categories: ["poetry"]
 tags: ["poetry"]
+image: "images/hauntinghurts.jpg"
 draft: false
 ---
 # Haunting Hurts and Fading Twilight
