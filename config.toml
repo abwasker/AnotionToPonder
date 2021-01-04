@@ -12,7 +12,7 @@ canonifyurls    = true
   copyright   = "© 2020"
 
   cover       = "images/purple-lake.jpg"
-  description = "Here is a description of your site."
+  description = "A Notion To Ponder"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
@@ -20,31 +20,32 @@ canonifyurls    = true
 
   twitterName = "faketryghost"
   fbName = ""
-  githubName = "testing"
+  githubName = "abwasker"
   linkedinName = "anoshwasker"
   mediumName = ""
+  vscoName = "zadaddiya"
 
   logo = ""
   orgName = "AW"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
-  showSupport = true
+  showSupport = false
 
-  author = "Anosh"
-  authorAvatar = "img/ghost-icon.png"
+  author = "Anosh Wasker"
+  authorAvatar = "images/author-min.png"
   authorLocation = "Chicago, IL"
   authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
+  authorDescription = "Physicist| Photographer | Teacher | Philosophy enthusiast"
 
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
-  singleViewStyle = "caspertwo"
+  singleViewStyle = "casper"
 
-[permalinks]
+# [permalinks]
   #post = "/post/:slug/"
-  poetry = "poetry/"
+  #poetry = "poetry/:section"
 
 [[menu.main]]
   name = "Home"
@@ -55,13 +56,21 @@ canonifyurls    = true
   name = "Poetry"
   url = "/tags/poetry/"
   weight = 100
-
+  
 [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 99
-
-[[menu.main]]
-  name = "VSCO"
+  name = "Photography"
   url = "https://vsco.co/zadaddiya/gallery/"
   weight = 95
+
+[[menu.section]]
+  identifier = "section"
+  title = "Section"
+  name = "roller"
+  url = "/poetry/"
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Writings"
+    title = "Writings"
+    url = "/post/"
+    weight = -110
